@@ -1,6 +1,6 @@
 # Portfolio
 
-[Link to Portfolio](https://marikadicarlo.github.io/horiseon-tools/)
+[Link to Portfolio](https://marikadicarlo.github.io/Portfolio/)
 
 ![Screenshot]()
 
