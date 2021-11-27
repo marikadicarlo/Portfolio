@@ -5,7 +5,9 @@
   font-family: sans-serif;
 }
 
-li, a, button {
+li,
+a,
+button {
   font-family: sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -57,7 +59,7 @@ button {
 }
 
 button:hover {
-  background-color: rgba(0,136,169,0.8);
+  background-color: rgba(0, 136, 169, 0.8);
 }
 
 html {
@@ -72,7 +74,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
@@ -103,9 +105,10 @@ html {
   width: 100%;
 }
 
-
 /* Contact Section Begins */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid;
@@ -116,7 +119,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 9px 25px;
   background-color: #0088a9;
   border: none;
@@ -126,6 +129,6 @@ input[type=submit] {
   color: white;
 }
 
-input[type=submit]:hover {
-  background-color: rgba(0,136,169,0.8);
+input[type="submit"]:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
