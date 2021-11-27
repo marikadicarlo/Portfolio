@@ -23,7 +23,7 @@ WHEN I click one of the links in the navigation<br>
 THEN the UI scrolls to the corresponding section<br>
 WHEN I click on the link to the section about their work<br>
 THEN the UI scrolls to a section with titled images of the developer's applications<br>
-WHEN I am presented with the developer's first application
+WHEN I am presented with the developer's first application<br>
 THEN that application's image should be larger in size than the others<br>
 WHEN I click on the images of the applications<br>
 THEN I am taken to that deployed application<br>
