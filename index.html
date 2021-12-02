@@ -3,106 +3,93 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" />
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="./assets/style.css">
+    <title>Marika's Portfolio</title>
 </head>
+<body>
 
 <!-- Navigation Bar Begins -->
-<body>
-    <header>
+    <section id="header">
         <nav>
             <ul class="nav-links">
-                <li> <a href="#">ABOUT</a> </li>
-                <li> <a href="#">WORK</a> </li>
-                <li> <a href="#">CONTACT</a> </li>
+                <li> <a href="#about-me">ABOUT</a> </li>
+                <li> <a href="#work-section">WORK</a> </li>
+                <li> <a href="#contact-section">CONTACT</a> </li>
             </ul>
         </nav>
-    </header>
-</body>
+    </section>
 <!-- Navigation Bar Ends -->
 
 <!-- About Section Begins -->
-<main>
-     <section id="aboutme">
+<section id="about-me">
+    <div class="about">
       <h2>ABOUT ME</h2>
-      <figure>
-        <img src="./assets/images/avatar.jpg" alt="Marika Di Carlo">
-      </figure>
+        <img src="./assets/images/avatar.jpg" alt="Marika Di Carlo" class="center" >
       <h2>Marika Di Carlo</h2>
       <p>
-        My name is Marika Di Carlo, and I live in Connecticut with my boyfriend and our two year old puppy.<br>
-        Originally graduated from Western Connecticut State University with a Bacherlor's Degree in Theatre Management in 2016.<br>
-        I am an Assistant Commmunity Manager at a rental complex here in Connecticut. I am currently enrolled<br>
-        in the University of Connecticut Coding Bootcamp. I am expected to complete this bootcamp in May 2022, and I am ready to branch away from <br>
+        My name is Marika Di Carlo, and I live in Meriden, Connecticut.<br>
+        I am an Assistant Commmunity Manager at a rental complex here in Meriden, CT and have been doing this for about two years.<br>
+        I graduated from Western Connecticut State University with a Bacherlor's Degree in Theatre Management in 2016.<br>
+        I am currently enrolled in the University of Connecticut Coding Bootcamp. I am expected to complete this bootcamp in May 2022, and I am ready to branch away from <br>
         property management and focus on a career in coding. With the skills I am learning, my goal is to become a Full-Stack Web Developer.    
       </p>
      </section>
-</main>
+</div>
 
 
 <!-- Work Section Begins -->
-<section id="work-section">
-<h2>WORK</h2>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-       <img src="./assets/images/digital-marketing-meeting.jpg" alt="horiseon" width="400px" >
-       <div class="container">
-           <h2>HoriSEOn</h2>
-           <p class="title">Refactoring Project</p>
-           <p>Refactoring HTML and CSS code</p>
-           <p><button class="button">HoriSEOn</button></p>
-       </div>
-   </div>
-  </div>
- </div>
+  <section id="work-section">
+        <div class="flex-row">
+        <h2>WORK</h2> 
+        </div>
 
- <div class="column">
-  <div class="card">
-    <img src="./assets/images/placeholder.jpg" alt="placeholder">
-    <div class="container">
-        <h2>RUN BUDDY</h2>
-        <p class="title">CSS Project</p>
-        <p>Understanding and editing basic HTML and CSS code</p>
-        <p><button class="button">Run Buddy</button></p>
-  </div>
- </div>
-</div>
+        <div class="works">
+        <article class="work">
+            <img src="./assets/images/digital-marketing-meeting.jpg" alt="horiseon" width="400px" > 
+            <h2 class="work-name">HoriSEOn</h2>
+            <p class="work-title">Refactoring Project</p>
+            <p>Refactoring HTML and CSS code</p>
+            <p><button class="button">HoriSEOn</button></p>
+        </article>
+        </div>
 
-<div class="column">
- <div class="card">
-    <img src="./assets/images/placeholder.jpg" alt="placeholder">
-    <div class="container">
-        <h2>Password Generator</h2>
-        <p class="title">Coming Soon</p>
-        <p>In Progress</p>
-        <p><button class="button">Password Generator</button></p>
-    </div>
- </div>
-</div>
-</div>
-</article>
+        <div class="works">
+        <article class="work">
+            <img src="./assets/images/placeholder.jpg" alt="placeholder">
+            <h2 class="work-name">CSS Project</h2>
+            <p class="work-title">Run Buddy</p>
+            <p>Understanding and editing bsic HTML and CSS code</p>
+            <p><button class="button">Run Buddy</button></p>
+        </article>
+        </div>
+
+        <div class="works">
+        <article class="work">
+            <img src="./assets/images/placeholder.jpg" alt="placeholder">
+            <h2 class="work-name">Password Generator</h2>
+            <p class="work-title">Coming Soone</p>
+            <p>In Progress</p>
+            <p><button class="button">Password Generator</button></p>
+        </article>
+        </div>
+
+  </section>
 <!-- Work Section Ends -->
 
 
 <!-- Contact Section Begins -->
-
-<!-- Contact Section Ends -->
-<section id="contact-section">
+<section> 
+<div id="contact-section" class="contact-section" >
     <h2>CONTACT ME</h2>
-    <ul class="highlighted-text">
+    <ul>
         <li>E-mail: <a href="mailto:mdicarlo19@yahoo.com">mdicarlo19@yahoo.com</a></li>
         <li>GitHub: <a href="https://github.com/marikadicarlo">Marika Di Carlo</a></li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/marikadicarlo/">Marika Di Carlo</a></li>
     </ul>
     <br>
 </section>
-
-<!-- Footer -->
-<footer>
-    <p>© 2021 Marika Di Carlo Bio</p>
-</footer>
+<!-- Contact Section Ends -->
 
 </body>
 </html>

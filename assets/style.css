@@ -15,23 +15,14 @@ button {
   text-decoration: none;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10px;
-  margin-bottom: 15px;
-  background-color: teal;
-}
-
-/* Navigation Section Begins */
 .nav-links {
   list-style: none;
 }
 
 .nav-links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 10px 20px;
+  font-size: 24px;
 }
 
 .nav-links li a {
@@ -41,26 +32,39 @@ header {
 .nav-links li a:hover {
   color: turquoise;
 }
-/* Navigation Section Ends */
 
-
-/* About Section Begins */
-#aboutme {
-  
+#header {
+  height: 50px;
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
 }
-/* About Section Ends */
+
+/*  ---------------------------------- */
+
+#about-me {
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/*  ---------------------------------- */
+
+#work-section h2 {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.works {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
 
 
 
-
-
-
-
-/* Work Section Begins */
-/* Work Section Ends */
-
-
-
-/* Contact Section Begins */
-/* Contact Section Ends */
-
+/*  ---------------------------------- */
