@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: lightgray;
 }
 
 li,
 a,
 button {
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
   font-size: 16px;
   color: black;
@@ -30,7 +34,7 @@ button {
 }
 
 .nav-links li a:hover {
-  color: turquoise;
+  color: rgb(21, 138, 138); ;
 }
 
 #header {
@@ -44,16 +48,43 @@ button {
 
 #about-me {
   padding: 10px 20px;
-  text-align: left;
-  font-size: 18px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#about-me img {
+  border-radius: 20%;
+}
+
+#about-me p {
+  text-align: center;
 }
 
 /*  ---------------------------------- */
 
-#work-section h2 {
+#work-section {
+  background-color: white;
+}
+
+#work-section h2, h3, p {
   margin: auto;
-  padding: 10px;
+  padding: 3px;
   text-align: center;
+}
+
+#work {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work {
+  margin: 20px;
+  flex: 0;
+  background: #024e76;
+  color: white;
 }
 
 .works {
@@ -65,6 +96,25 @@ button {
   text-align: center;
 }
 
-
+button {
+  margin-bottom: 10px;
+}
 
 /*  ---------------------------------- */
+
+#contact-section {
+  margin: auto;
+  padding: 10px;
+}
+
+#contact-section h2 {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: right;
+}
+
+
+#contact-section ul, li, a {
+  display: inline-block;
+  text-align: right;
+}
