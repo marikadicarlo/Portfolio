@@ -1,6 +1,6 @@
 # Portfolio
 
-[Link to Portfolio](https://marikadicarlo.github.io/Portfolio/)
+[Link to Portfolio]()
 
 ![Screenshot]()
 

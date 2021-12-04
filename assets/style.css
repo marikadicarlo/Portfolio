@@ -42,6 +42,7 @@ button {
   background-image: url(./images/background.jpg);
   background-position: center;
   background-size: cover;
+  flex-wrap: wrap;
 }
 
 /*  ---------------------------------- */
@@ -104,17 +105,17 @@ button {
 
 #contact-section {
   margin: auto;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 #contact-section h2 {
   margin-top: 10px;
   padding: 10px;
-  text-align: right;
+  text-align: center;
 }
 
-
-#contact-section ul, li, a {
-  display: inline-block;
-  text-align: right;
+#contact-section ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
