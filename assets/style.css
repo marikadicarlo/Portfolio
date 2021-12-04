@@ -48,16 +48,21 @@ button {
 /*  ---------------------------------- */
 
 #about-me {
-  padding: 10px 20px;
+  padding: 0 20px;
+  margin-top: 15px;
   font-size: 16px;
   text-align: center;
 }
 
 #about-me img {
+  height: 150px;
   border-radius: 20%;
 }
 
 #about-me p {
+  padding: 30px 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   text-align: center;
 }
 
@@ -65,6 +70,13 @@ button {
 
 #work-section {
   background-color: white;
+  padding: 15px 20px;
+}
+
+#work-section img:hover {
+  padding: 50px;
+  transition: transform .3s;
+  margin: 0 auto;
 }
 
 #work-section h2, h3, p {
@@ -118,4 +130,12 @@ button {
   list-style: none;
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .nav-links, .about, .flex-row {
+    flex-direction: column;
+  }
 }
