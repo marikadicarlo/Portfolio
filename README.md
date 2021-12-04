@@ -1,8 +1,8 @@
 # Portfolio
 
-[Link to Portfolio]()
+[Link to Portfolio](https://marikadicarlo.github.io/Portfolio/)
 
-![Screenshot]()
+![Marika's Portfolio](./assets/images/MDsPortfolioImg.png)
 
 ## Welcome to my portfolio.
 
