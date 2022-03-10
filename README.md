@@ -2,9 +2,9 @@
 
 [Link to Portfolio](https://marikadicarlo.github.io/Portfolio/)
 
-![Marika's Portfolio](./assets/images/MDsPortfolioImg.png)
+![Marika's Portfolio](./assets/images/portfoliopic.png)
 
-## Welcome to my portfolio.
+## Welcome to my portfolio
 
 ## User Story
 ```
