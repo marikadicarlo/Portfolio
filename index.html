@@ -1,99 +1,265 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
     <title>Marika's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
-<!-- Navigation Bar Begins -->
-    <section id="header">
-        <nav>
-            <ul class="nav-links">
-                <li> <a href="#about-me">ABOUT</a> </li>
-                <li> <a href="#work-section">WORK</a> </li>
-                <li> <a href="#contact-section">CONTACT</a> </li>
-            </ul>
-        </nav>
-    </section>
-<!-- Navigation Bar Ends -->
-
-<!-- About Section Begins -->
-<section id="about-me">
-    <div class="about">
-      <h2>ABOUT ME</h2>
-        <img src="./assets/images/avatar.jpg" class="rounded float-left" alt="Marika Di Carlo">
-      <h3>Marika Di Carlo</h3>
-      <p>
-        My name is Marika Di Carlo, and I live in Meriden, Connecticut.<br>
-        I am an Assistant Commmunity Manager at a rental complex here in Meriden, CT and have been doing this for about two years.
-        I graduated from Western Connecticut State University with a Bacherlor's Degree in Theatre Management in 2016.
-        I am currently enrolled in the University of Connecticut Coding Bootcamp. I am expected to complete this bootcamp in May 2022, and I am ready to branch away from
-        property management and focus on a career in coding. With the skills I am learning, my goal is to become a Full-Stack Web Developer.    
-      </p>
-     </section>
-</div>
-
-
-<!-- Work Section Begins -->
-  <section id="work-section">
-    <div class="flex-row">
-        <h2>WORK</h2> 
-    </div>
-  
-        <div class="works">
-        <article class="work">
-            <img src="./assets/images/digital-marketing-meeting.jpg" alt="horiseon" width="450px" > 
-            <h2 class="work-name">HoriSEOn</h2>
-            <h3 class="work-title">Refactoring Project</h3>
-            <p>Refactoring HTML and CSS code</p>
-            <p> <a href="https://marikadicarlo.github.io/horiseon-tools/" target="_blank"><button>HoriSEOn</button></a></p>
-        </article>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">My name is Marika Di Carlo, and I am a few weeks away from completeing the 
+                            UCONN coding bootcamp. Currently, I am an assistant community manager, and looking to branch away
+                            into the coding field.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.linkedin.com/in/marikadicarlo/" target="_blank" class="text-white">Follow on LinkedIn</a></li>
+                            <li><a href="https://github.com/marikadicarlo" target="_blank" class="text-white">View my GitHub</a></li>
+                            <li><a href="mailto:mdicarlo19@yahoo.com" target="_blank" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="mr-2">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                        </path>
+                        <circle cx="12" cy="13" r="4"></circle>
+                    </svg>
+                    <strong>Marika</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Welcome to my Portfolio</h1>
+                <p class="lead text-muted">My current skills are HTML, CSS, JavaScript, Third-Party & Server-Side APIs, Node.js, OOP, Express.js, ORM, mySQL, and MVC. </p>
+                <p>
+                    <a href="https://github.com/marikadicarlo" target="_blank" class="btn btn-primary my-2">Visit my GitHub</a>
+                    <a href="#footer" class="btn btn-secondary my-2">Contact Me</a>
+                </p>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/digital-marketing-meeting.jpg"
+                                alt="Refactoring Assignment">
+                            <div class="card-body">
+                                <p class="card-text">HoriSEOn - HTML, CSS, and Git</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://marikadicarlo.github.io/horiseon-tools/" target="_blank">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Nov 22, 2021</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/runbuddy.jpg"
+                                alt="CSS Assignment">
+                            <div class="card-body">
+                                <p class="card-text">Run Buddy - Advanced CSS</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://marikadicarlo.github.io/run-buddy/" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Dec 3, 2021</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" 
+                                src="./assets/images/placeholder.jpg" 
+                                alt="Budgeting Application">
+                            <div class="card-body">
+                                <p class="card-text">Budgeting Application - HTML, CSS, Javascript, APIs</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/Jaswal1p/Recepie-Budget/" target="_blank">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Jan 13, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/passgen.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Password Generator - JavaScript</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/marikadicarlo/Password-Generator/" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Dec 12, 2021</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/codingquiz.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Coding Quiz - JavaScript</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/marikadicarlo/CodingQuiz/" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Dec 19, 2021</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/WeatherDashboard.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Weather Dashboard - Third-Party APIs</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/marikadicarlo/WeatheredDashboard/" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Jan 6, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/stickynotes.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Sticky Notes - Express.js</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/marikadicarlo/sticky-notes" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Feb 13, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/placeholder.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Retail Wizard - Express.js, Sequelize, and mySql</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://github.com/marikadicarlo/retail-wizard" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                                    </div>
+                                    <small class="text-muted">Feb 7, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"
+                                src="./assets/images/placeholder.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Project 2 - HTML, CSS, JavaScript, Express.js, Sequelize, mySql, MVC, </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                    <small class="text-muted">Mar 13, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="works">
-        <article class="work">
-            <img src="./assets/images/runbuddy.jpg" alt="run-buddy" width="400px">
-            <h2 class="work-name">CSS Project</h2>
-            <h3 class="work-title">Run Buddy</h3>
-            <p>Understanding and editing bsic HTML and CSS code</p>
-            <p><a href="https://marikadicarlo.github.io/run-buddy/" target="_blank"><button>Run Buddy</button></a></p>
-        </article>
-        </div>
-        </div>
+    </main>
 
-        <div class="works">
-        <article class="work">
-            <img src="./assets/images/budgetapp.png" alt="budget-app" width="400px">
-            <h2 class="work-name">Budget App</h2>
-            <h3 class="work-title">Javascript Project</h3>
-            <p>This application uses Materialize, and two Web APIs: Rainforest API and GIPHY API.</p>
-            <p><a href="https://jaswal1p.github.io/Recepie-Budget/" target="_blank"><button>Budget App</button></a></p>
-        </article>
+    <footer class="text-muted">
+        <div class="container" id="footer">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <!-- <p>Marika's Portfolio is &copy; Bootstrap, but please download and customize it for yourself!</p> -->
+            <p>Want to reach out to me? <a href="mailto:mdicarlo19@yahoo.com" target="_blank">E-mail</a> me or head over to my LinkedIn <a
+                    href="https://www.linkedin.com/in/marikadicarlo/" target="_blank">for more information</a>.</p>
         </div>
-        </div>
-        </div>
+    </footer>
 
-  </section>
-<!-- Work Section Ends -->
-
-
-<!-- Contact Section Begins -->
-<section> 
-<div id="contact-section" class="contact-section" >
-    <h2>CONTACT MARIKA</h2>
-    <ul>
-        <li>E-mail Marika: <a href="mailto:mdicarlo19@yahoo.com" target="_blank"><button>E-mail</button></a></li>
-        <li>Look at Marika's GitHub: <a href="https://github.com/marikadicarlo" target="_blank"><button>GitHub</button></a></li>
-        <li>Here is Marika's LinkedIn: <a href="https://www.linkedin.com/in/marikadicarlo/" target="_blank"><button>LinkedIn</button></a></li>
-    </ul>
-    <br>
-</section>
-<!-- Contact Section Ends -->
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/holder.min.js"></script>
 </body>
+
 </html>
